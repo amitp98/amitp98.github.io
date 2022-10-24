@@ -14,14 +14,17 @@ const About = () => {
           Hi, I am <span className='about__name'>{name}.</span>
         </h1>
       )}
-
+ 
       {role && <h2 className='about__role'>A {role}.</h2>}
+      <h3>Welcome to my website!</h3>
+
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
         {social && (
           <>
             {social.github && (
+              /*
               <a
                 href={social.github}
                 aria-label='github'
@@ -29,6 +32,12 @@ const About = () => {
               >
                 <GitHubIcon />
               </a>
+              */
+             <a href={social.github} target="_blank" rel="noopener noreferrer">
+              <span type='button' className='btn-rounded-white'>
+                <p className=''>GitHub</p>
+              </span>
+            </a>
             )}
 
             {social.linkedin && (

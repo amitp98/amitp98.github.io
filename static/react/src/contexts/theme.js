@@ -12,6 +12,7 @@ const ThemeProvider = ({ children }) => {
     darkMediaQuery.addEventListener('change', (e) => {
       setThemeName(e.matches ? 'dark' : 'light')
     });
+    setThemeName('light');
   }, [])
 
   const toggleTheme = () => {

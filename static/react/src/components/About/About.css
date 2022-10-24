@@ -10,8 +10,6 @@
 
 .about__role {
   margin-top: 1.2em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .about__desc {
@@ -49,9 +47,22 @@
   border-radius:30px;
   transition:.5s ease all;
 }
+
+.btn-rounded-white:hover {
+  transform: translateY(-1px);
+  background-color: var(--clr-primary);
+  color: white;
+}
+
 .arrow {
   margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
-  transition:.5s ease all;
+  transition:.3s ease all;
+}
+
+.arrow:hover {
+  transform: translateY(-1px);
+  background-color: var(--clr-primary);
+  color: white;
 }

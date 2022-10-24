@@ -3,7 +3,9 @@
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
+  transition: transform 0.9s linear;
+  border:1px solid var(--clr-primary);
+  border-radius:5px;
 }
 
 .project:hover {
@@ -26,6 +28,15 @@
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
+  border:2px solid var(--clr-primary);
+  border-radius:30px;
+  padding: 5px 5px;
+}
+
+.project__stack-item:hover {
+  transform: translateY(-1px);
+  background-color: var(--clr-primary);
+  color: white;
 }
 
 .project .link--icon {

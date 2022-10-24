@@ -22,7 +22,7 @@ const App = () => {
         <Skills />
         <Contact />
       </main>
-
+      <ScrollToTop />
       <Footer />
     </div>
   )

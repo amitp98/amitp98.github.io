@@ -9,4 +9,13 @@
 
 .skills__list-item {
   margin: 0.5em;
+  border:1px solid var(--clr-primary);
+  border-radius:5px;
+  box-shadow: var(--shadow);
+}
+
+.skills__list-item:hover {
+  transform: translateY(-2px);
+  background-color: var(--clr-primary);
+  color: white;
 }

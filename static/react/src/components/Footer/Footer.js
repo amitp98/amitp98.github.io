@@ -8,6 +8,7 @@ const Footer = () => (
         <ArrowUpwardIcon fontSize='large' />
       </a>
     </div>
+    <p className='footer_txt'>Personal Resume Website developed using ReactJS and hosted on Github Pages | {(new Date().getFullYear())}</p>
   </footer>
 )
 

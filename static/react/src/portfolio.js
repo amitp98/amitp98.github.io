@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://amitp98.github.io/',
-  title: 'Amit',
+  title: 'amitp98.github.io',
 }
 
 const about = {
@@ -12,7 +12,7 @@ const about = {
     'Experienced Software Developer with strong problem-solving skills and the ability to adapt quickly to new technologies.',
   // resume: 'https://amitp98.github.io/',
   social: {
-    linkedin: 'https://linkedin.com/',
+    // linkedin: 'https://linkedin.com/',
     github: 'https://github.com/amitp98',
   },
 }
@@ -21,17 +21,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Digitalization of CPI',
+    name: 'Digitalization of CPI (Ministry of Statistics, GoI)',
     description:
-      '(Ministry of Statistics – GoI) Digitalization of Consumer Price Index(CPI) data collection and administration for rural and urban sectors through cross-platform mobile applications.',
+      'Digitalization of Consumer Price Index(CPI) data collection and administration for rural and urban sectors through cross-platform mobile applications.',
     stack: ['Ionic framework', 'TypeScript'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
   },
   {
-    name: 'User authentication using ML',
+    name: 'ML-based user authentication',
     description:
-      'Multimodal Biometrics for user authentication using mouse dynamics, keystroke and face related attributes of user.',
+      'Multimodal Biometrics for user authentication using mouse dynamics, keystroke and face modalities through feature classification of modalities.',
     stack: ['Python', 'Machine Learning'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
@@ -40,12 +40,12 @@ const projects = [
     name: 'Sentiment analysis',
     description:
       'Sentiment analysis on IMDb movie reviews to classify them as positive or negative. Applied standard NLP steps and language understanding algorithms to predict user sentiments.',
-    stack: ['Python', 'NLP'],
+    stack: ['Python', 'NLP/ML'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
   },
   {
-    name: 'Hyperledger Fabric - Voting portal',
+    name: 'Voting system using Blockchain',
     description:
       'Voting portal based on Blockchain network created using Hyperledger Fabric.',
     stack: ['Hyperledger Fabric', 'TypeScript'],
@@ -97,7 +97,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: '@gmail.com',
+  // email: '@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
