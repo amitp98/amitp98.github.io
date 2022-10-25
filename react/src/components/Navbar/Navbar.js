@@ -55,14 +55,21 @@ const Navbar = () => {
           </li>
         ) : null}
       </ul>
-        Theme
+      
+      <a
+        href='#contact'
+        onClick={toggleTheme}
+        className='btn btn--icon'
+      >
+       Theme 
+      </a>
       <button
         type='button'
         onClick={toggleTheme}
         className='btn btn--icon nav__theme'
         aria-label='toggle theme'
       >
-        {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+       {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
 
       <button

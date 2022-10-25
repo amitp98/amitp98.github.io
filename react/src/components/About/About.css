@@ -1,6 +1,6 @@
 .about {
   flex-direction: column;
-  margin-top: 20em;
+  margin-top: 10vh;
   height: 90vh;
 }
 
@@ -9,7 +9,8 @@
 }
 
 .about__role {
-  margin-top: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .about__desc {
@@ -55,9 +56,7 @@
 }
 
 .arrow {
-  margin-top: 10vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   transition:.3s ease all;
 }
 
