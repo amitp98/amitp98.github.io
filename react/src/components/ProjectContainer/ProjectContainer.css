@@ -3,7 +3,7 @@
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
-  transition: transform 0.9s linear;
+  transition: transform 0.2s linear;
   border:1px solid var(--clr-primary);
   border-radius:5px;
 }

@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { ThemeContext } from './contexts/theme'
+import { ThemeContext } from './theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import 'animate.css/animate.css';
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)

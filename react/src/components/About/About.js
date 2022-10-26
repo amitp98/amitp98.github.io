@@ -10,17 +10,19 @@ const About = () => {
   return (
     <div className='about center'>
       {name && (
-        <h1>
+          <h1 className='about__greeting animate__animated animate__fadeInUp animate__delay-400ms'>
           Hi, I am <span className='about__name'>{name}.</span>
-        </h1>
+          </h1>
       )}
  
       {role && <h2 className='about__role'>A {role}.</h2>}
-      <h3 className='about__role'>Welcome to my website!</h3>
+      <h3 className='about__role animate__animated animate__fadeInUp animate__delay-600ms'>
+        Welcome to my website!
+      </h3>
 
-      <p className='about__desc'>{description && description}</p>
+      <p className='about__desc animate__animated animate__fadeIn animate__delay-1s'>{description && description}</p>
 
-      <div className='about__contact center'>
+      <div className='about__contact center  animate__animated animate__fadeIn animate__delay-1s'>
         {social && (
           <>
             {social.github && (
@@ -52,7 +54,7 @@ const About = () => {
           </>
         )}
       </div>
-      <div className='about__contact center'>
+      <div className='about__contact center animate__animated animate__fadeIn animate__delay-1s'>
         {resume && (
           /*
           <a href={resume}>
@@ -68,7 +70,7 @@ const About = () => {
           </a>
         )}
       </div>
-      <div className='arrow'>
+      <div className='arrow center animate__animated animate__fadeIn animate__delay-1s'>
         <a href='#projects'  >
           <ArrowDownwardIcon fontSize='large' />
         </a>
